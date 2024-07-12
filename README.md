@@ -1,7 +1,8 @@
 *1. Gradient Descent: The Mountain Climber*
  
  *Code: Gradient Descent*
-```mport numpy as np
+
+```import numpy as np
 
 def gradient_descent(start, gradient, learn_rate, n_iter=100, tolerance=1e-06):
     vector = start
@@ -20,7 +21,9 @@ minimum = gradient_descent(start=10.0, gradient=gradient, learn_rate=0.1)
 print(f"The minimum occurs at: {minimum}")```
 
  *2. Backpropagation: The Blame Game*
+
 *Code for Backprogation technique*
+
 ```import numpy as np
 
 def sigmoid(x):
@@ -60,7 +63,9 @@ for _ in range(1500):
 print(nn.output)```
 
  *3. K-Means Clustering: The Party Planner* 
+
 *Code: K-Means Clustering*
+
 ```import numpy as np
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
@@ -84,7 +89,9 @@ plt.show()
 ```
 
 *4. Decision Trees: The Questionnaire*
+
  *Code: Decision Tree*
+
 ```from sklearn.tree import DecisionTreeClassifier
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -109,7 +116,9 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy:.2f}")```
 
 *5. Reinforcement Learning: The Pet Trainer*
+
 *Code for Reinforcement Learning*
+
 ```import numpy as np
 
 # Simple Q-learning implementation \\
@@ -149,7 +158,4 @@ for episode in range(1000):
 
 print(agent.q_table)
 ```
-<!---
-VENKATESHLAKSHANB/VENKATESHLAKSHANB is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
